@@ -10,5 +10,5 @@ jobs:
     with:
       board: '["zaphod"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
-      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=9\nCONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=9]'
       branches: '["zmkfirmware/zmk/main ftc/zmk/mouse-ftc"]'
