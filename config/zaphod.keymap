@@ -1,9 +1,7 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-# Attempt to decrease chatter
 CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=10
-CONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=10
 
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/34/ferris.h"
