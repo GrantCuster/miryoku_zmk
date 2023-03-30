@@ -1,8 +1,6 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=10
-
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/34/ferris.h"
 #include "../miryoku/miryoku.dtsi"
