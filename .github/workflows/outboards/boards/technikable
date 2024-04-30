@@ -3,5 +3,5 @@
 
 outboard_repository=petejohanson/technikable-zmk-config
 outboard_ref=main
-outboard_from=boards/arm/technikable_1_1_0
+outboard_from=boards/arm/technikable@1.1
 outboard_to=boards/arm/technikable
