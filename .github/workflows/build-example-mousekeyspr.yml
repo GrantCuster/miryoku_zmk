@@ -10,5 +10,6 @@ jobs:
     with:
       board: '["technikable@1.1"]'
       nav: '["vi"]'
+      alphas: '["QWERTY"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll"]'
