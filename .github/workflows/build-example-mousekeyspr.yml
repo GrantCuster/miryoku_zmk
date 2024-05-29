@@ -8,7 +8,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["technikable@1.1"]'
+      board: '["technikable"]'
       nav: '["vi"]'
       alphas: '["QWERTY"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
