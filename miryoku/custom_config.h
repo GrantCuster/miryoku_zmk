@@ -1,7 +1,9 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#if defined (MIRYOKU_KEBOARD_CORNE)
+#define MIRYOKU_KLUDGE_MOUSEKEYSPR
+
+#if defined (MIRYOKU_KEBOARD_CORNE)bb
 
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
